@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ssh' version='158.ve2a_e90fb_7319'><l:dependency name='Jenkins SSH plugin' groupId='org.jenkins-ci.plugins' artifactId='ssh' version='158.ve2a_e90fb_7319' url='https://github.com/jenkinsci/ssh-plugin'><l:description>Execute shell scripts on remote host using ssh (pre and post build). Based on the cool scp plugin.</l:description></l:dependency></l:dependencies>

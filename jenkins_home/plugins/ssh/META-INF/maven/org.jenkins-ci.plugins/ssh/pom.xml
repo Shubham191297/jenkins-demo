@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>ssh</artifactId>
+  <version>158.ve2a_e90fb_7319</version>
+  <packaging>hpi</packaging>
+  <name>Jenkins SSH plugin</name>
+  <description>Execute shell scripts on remote host using ssh (pre and post build). Based on the cool scp plugin.</description>
+  <url>https://github.com/jenkinsci/ssh-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <developers>
+    <developer>
+      <id>edmund_wagner</id>
+      <name>Edmund Wagner</name>
+    </developer>
+    <developer>
+      <id>ljader</id>
+      <name>Lukasz Jader</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/ssh-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/ssh-plugin.git</developerConnection>
+    <tag>e2ae90fb7319b97f7a59eb6e2f7ae338b23264dc</tag>
+    <url>https://github.com/jenkinsci/ssh-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>jsch</artifactId>
+      <version>0.2.16-86.v42e010d9484b_</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>ssh-credentials</artifactId>
+      <version>337.v395d2403ccd4</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.57</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
