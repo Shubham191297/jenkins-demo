@@ -9,6 +9,18 @@ services:
       - $PWD/jenkins_home:/var/jenkins_home
     networks:
       - net
+  jenkins_ansible:
+    container_name: jenkins_ansible
+    image: jenkins_ansible
+    build:
+      context: jenkins_ansible
+    restart: always
+    ports:
+      - "8081:8080"
+    volumes:
+      - $PWD/jenkins_ansible_home:/var/jenkins_home
+    networks:
+      - net
   remote_host:
     container_name: remote_host
     image: remote-host
@@ -18,7 +30,6 @@ services:
       - $PWD/sql-aws-s3-backup.sh:/tmp/script.sh
     networks:
       - net
-
   db_host:
      container_name: db
      image: mysql:5.7
