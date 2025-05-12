@@ -50,7 +50,17 @@
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.ApiTokenProperty>
       <tokenStore>
-        <tokenList/>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>236c57b7-8bd9-44ad-b67e-983244377b59</uuid>
+            <name>shubham</name>
+            <creationDate>2025-05-12 00:47:50.599 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>decca8a7686464e3c76085ead9a3ecc91ff089d627d0052e2b100884e3e39f25</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>

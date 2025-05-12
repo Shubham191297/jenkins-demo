@@ -53,3 +53,78 @@ cd
 cd ansible/
 ls -la
 exit
+cd
+cd ansible/
+cat play.yml 
+vi play.yml
+vim play.yml
+exit
+ssh web
+ssh web
+exit
+ansible -m ping -i hosts web1
+ls -la
+exit
+cd
+cd ansible/
+ls -la
+ansible -m ping -i hosts web1
+vi hosts
+cat hosts
+vim hosts
+exit
+cd
+cd ansible/
+ ansible -m ping -i hosts web1
+ ansible -m ping -i hosts test1
+exit
+ssh remote_host
+ssh remote_user@remote_host
+exit
+cd
+cd ansible/
+ansible -m ping -i hosts test1
+ansible -m ping -i hosts web1
+exit
+cd
+ls -la
+cd ansible/
+ls -la
+cat hosts
+vi hosts
+yum install -y vscode
+yum install -y vim
+apt-get install vim
+sudo su
+su
+apt-get install sudo
+passwd root
+exit
+find . -iname "password"
+find . -iname "password.txt"
+su
+su -
+ls -la
+cd
+ls -la
+exit
+cd
+cd ansible/
+ls -la
+ansible -m ping -i hosts web1
+exit
+cd 
+cd ansible/
+ls -la
+ansible-playbook -i hosts play2.yaml
+cat Dockerfile
+ansible-playbook -i hosts play2.yaml
+ssh remote_user@web
+docker exec -it -u root jenkins_ansible bash
+exit
+cd 
+cd ansible/
+ls -la
+ansible-playbook -i hosts play2.yaml
+cat play2.yaml 
+exit

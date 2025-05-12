@@ -35,7 +35,6 @@
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <io.jenkins.plugins.thememanager.ThemeUserProperty plugin="theme-manager@294.vf2c2fd783821"/>
     <hudson.model.TimeZoneProperty/>
     <jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
       <flags/>
@@ -48,7 +47,17 @@
     </hudson.tasks.Mailer_-UserProperty>
     <jenkins.security.ApiTokenProperty>
       <tokenStore>
-        <tokenList/>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>92f7cf90-101f-4d29-9e75-03976a866b5d</uuid>
+            <name>jenkins</name>
+            <creationDate>2025-05-12 00:11:21.121 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>8ac8d79b5f6bb82d99516ed2bf408af6b5c704ce15ee116762ca27a958cd1d47</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
       </tokenStore>
     </jenkins.security.ApiTokenProperty>
     <jenkins.security.LastGrantedAuthoritiesProperty>
@@ -57,5 +66,8 @@
       </roles>
       <timestamp>1746547435012</timestamp>
     </jenkins.security.LastGrantedAuthoritiesProperty>
+    <io.jenkins.plugins.thememanager.ThemeUserProperty plugin="theme-manager@294.vf2c2fd783821">
+      <theme class="io.jenkins.plugins.darktheme.DarkThemeManagerFactory" plugin="dark-theme@524.vd675b_22b_30cb_"/>
+    </io.jenkins.plugins.thememanager.ThemeUserProperty>
   </properties>
 </user>
