@@ -1,0 +1,7 @@
+Started by user [8mha:////4HyetK6+pkCnm0Mr0LUkrrh8cmt0JwjJ9WfoqDY8ayOvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mShubham Thapliyal
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible-users-dsl
+Processing provided DSL script
+Added items:
+    GeneratedJob{name='ansible-users-dsl-db'}
+Finished: SUCCESS

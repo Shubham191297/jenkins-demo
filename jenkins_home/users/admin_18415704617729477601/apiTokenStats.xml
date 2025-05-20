@@ -1,0 +1,10 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.security.apitoken.ApiTokenStats>
+  <tokenStats>
+    <jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
+      <tokenUuid>13fb2eee-7faa-4a3a-8894-26bfdf26c0b8</tokenUuid>
+      <lastUseDate>2025-05-20 03:46:03.379 UTC</lastUseDate>
+      <useCounter>14</useCounter>
+    </jenkins.security.apitoken.ApiTokenStats_-SingleTokenStats>
+  </tokenStats>
+</jenkins.security.apitoken.ApiTokenStats>

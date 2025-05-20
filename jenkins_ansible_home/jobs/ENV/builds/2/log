@@ -1,0 +1,19 @@
+Started by user [8mha:////4HyetK6+pkCnm0Mr0LUkrrh8cmt0JwjJ9WfoqDY8ayOvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZu/dLi1CL9xJTczDwAo1uC48AAAAA=[0mShubham Thapliyal
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins16161949458598849953.sh
++ echo Build number for this is 2
+Build number for this is 2
++ echo Build id is this 2
+Build id is this 2
++ echo Build URL is this http://localhost:8081/job/ENV/2/
+Build URL is this http://localhost:8081/job/ENV/2/
++ echo JOB NAME IS ENV
+JOB NAME IS ENV
++ echo ***************
+***************
++ echo Jenkins-course
+Jenkins-course
++ echo INDIA
+INDIA
+Finished: SUCCESS

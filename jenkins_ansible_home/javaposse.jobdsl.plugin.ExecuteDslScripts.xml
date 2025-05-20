@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.92">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <unserializable-parents/>
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>ansible-users-dsl-db</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>ansible-users-dsl</seedJobName>
+        <digest>5542b1d0c5ea226b6770060513bf4515</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>

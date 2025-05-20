@@ -1,0 +1,11 @@
+commit 27941e2f2b4a6d20031b4698c85dc32b38b2a1d6
+tree 93a375a22f4280aa55be03dd940aac8c938c2a2e
+parent 0f1cfffcf3e62a048f0d1d4b238a0e68f29d1b00
+author shubham <thapliyalshubham8@gmail.com> 2025-05-16 06:53:37 +0530
+committer shubham <thapliyalshubham8@gmail.com> 2025-05-16 06:53:37 +0530
+
+    Trigger jenkins maven job
+
+
+:100644 100644 5dcee7597e3d1a98569ccbe64879d0eba727d796 b37ecfa51b2ad0ad29b609e2890d1ff2b3787905 M	src/main/java/com/mycompany/app/App.java
+:100644 100644 085e3412a55888b64a58f2e229e948394c9e45f6 18f06f7fdb83dd17555d4bac5afd0286975ed9f5 M	src/test/java/com/mycompany/app/AppTest.java

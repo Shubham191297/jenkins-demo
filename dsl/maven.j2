@@ -1,0 +1,31 @@
+job('maven_dsl') {
+
+    description('Maven dsl project')
+
+    scm {
+        git('https://github.com/jenkins-docs/simple-java-maven-app', 'master', {node -> node / 'extensions' << '' })
+    }
+  
+    steps {
+        maven {
+            mavenInstallation('jenkins-maven')
+            goals('-B -DskipTests clean package')
+        }
+        maven {
+            mavenInstallation('jenkins-maven')
+            goals('test')
+        }
+        shell('''
+            echo "**********************"
+            echo "Deploying JAR"
+            echo "**********************"
+            java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+        ''')
+    }
+
+    publishers {
+        archiveArtifacts('target/*.jar')
+        archiveJunit('target/surefire-reports/*.xml')
+        mailer('thapliyalshubham8@gmail.com', true, true)
+    }
+}

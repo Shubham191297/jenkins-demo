@@ -1,0 +1,7 @@
+Started by user [8mha:////4NUcgF0Zb8q2y186U+etil8O/M78WVokYuqokwmq4GqzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins16871444215510558413.sh
++ /tmp/script.sh Shubham Thapliyal true
+Hello, Shubham Thapliyal
+Finished: SUCCESS

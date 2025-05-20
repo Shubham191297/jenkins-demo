@@ -1,0 +1,59 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job dsl created
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/job dsl created/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jenkins-docs/simple-java-maven-app # timeout=10
+Fetching upstream changes from https://github.com/jenkins-docs/simple-java-maven-app
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jenkins-docs/simple-java-maven-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision c2ae13e68a398a3999572cefb7d17d8bb0851942 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c2ae13e68a398a3999572cefb7d17d8bb0851942 # timeout=10
+Commit message: "Merge pull request #1122 from jenkins-docs/dependabot/maven/org.junit.jupiter-junit-jupiter-api-5.12.2"
+ > git rev-list --no-walk c2ae13e68a398a3999572cefb7d17d8bb0851942 # timeout=10
+ > git tag -a -f -m Jenkins Build #3 jenkins-job_dsl_created-3 # timeout=10
+hudson.plugins.git.GitException: Command "git tag -a -f -m Jenkins Build #3 jenkins-job_dsl_created-3" returned status code 128:
+stdout: 
+stderr: Committer identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jenkins@0334dbf84b7e.(none)')
+
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2852)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2772)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2767)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:2056)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:2068)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.tag(CliGitAPIImpl.java:1923)
+Caused: hudson.plugins.git.GitException: Could not apply tag jenkins-job_dsl_created-3
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.tag(CliGitAPIImpl.java:1925)
+	at PluginClassLoader for git-client//hudson.plugins.git.GitAPI.tag(GitAPI.java:356)
+	at PluginClassLoader for git//hudson.plugins.git.extensions.impl.PerBuildTag.onCheckoutCompleted(PerBuildTag.java:31)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1396)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+Caused: java.io.IOException
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1280)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1250)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:522)
+	at hudson.model.Run.execute(Run.java:1840)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:446)
+Finished: FAILURE

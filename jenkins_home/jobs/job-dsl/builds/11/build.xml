@@ -1,0 +1,90 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.30-471.v55fa_495f2b_f5">
+      <queuingDurationMillis>901</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>354</buildableDurationMillis>
+      <waitingDurationMillis>128</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1415.v831096eb_5534">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@5.7.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.1.3">
+              <sha1>ba68b9a9cd9b2ebffc2630ad12deb50071566ed0</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>11</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://git-server:80/jenkins/dsl-jobs.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set">
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>job dsl created</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>maven_dsl</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>git-job-test-hooks</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+      </modifiedObjects>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1747398272375</timestamp>
+  <startTime>1747398272821</startTime>
+  <result>SUCCESS</result>
+  <duration>12415</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/job-dsl</workspace>
+  <hudsonVersion>2.508</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.7.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

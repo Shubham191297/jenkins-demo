@@ -1,0 +1,22 @@
+Started by user [8mha:////4NUcgF0Zb8q2y186U+etil8O/M78WVokYuqokwmq4GqzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/maven-job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jenkins-docs/simple-java-maven-app.git
+ > git init /var/jenkins_home/workspace/maven-job # timeout=10
+Fetching upstream changes from https://github.com/jenkins-docs/simple-java-maven-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/jenkins-docs/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jenkins-docs/simple-java-maven-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c2ae13e68a398a3999572cefb7d17d8bb0851942 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c2ae13e68a398a3999572cefb7d17d8bb0851942 # timeout=10
+Commit message: "Merge pull request #1122 from jenkins-docs/dependabot/maven/org.junit.jupiter-junit-jupiter-api-5.12.2"
+First time build. Skipping changelog.
+Finished: SUCCESS

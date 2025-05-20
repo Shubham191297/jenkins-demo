@@ -1,0 +1,29 @@
+Started by user [8mha:////4NUcgF0Zb8q2y186U+etil8O/M78WVokYuqokwmq4GqzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+The recommended git tool is: NONE
+using credential git_user
+Cloning the remote Git repository
+Cloning repository http://git-server:80/jenkins/dsl-jobs.git
+ > git init /var/jenkins_home/workspace/job-dsl # timeout=10
+Fetching upstream changes from http://git-server:80/jenkins/dsl-jobs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://git-server:80/jenkins/dsl-jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://git-server:80/jenkins/dsl-jobs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ba68b9a9cd9b2ebffc2630ad12deb50071566ed0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba68b9a9cd9b2ebffc2630ad12deb50071566ed0 # timeout=10
+Commit message: "Added new jobs to trigger"
+First time build. Skipping changelog.
+Processing DSL script jobs
+Added items:
+    GeneratedJob{name='maven_dsl'}
+    GeneratedJob{name='git-job-test-hooks'}
+Existing items:
+    GeneratedJob{name='job dsl created'}
+Finished: SUCCESS

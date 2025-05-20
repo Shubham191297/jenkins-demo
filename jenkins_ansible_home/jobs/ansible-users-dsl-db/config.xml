@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+    <actions/>
+    <description>Update the html table based on input</description>
+    <keepDependencies>false</keepDependencies>
+    <properties>
+        <hudson.model.ParametersDefinitionProperty>
+            <parameterDefinitions>
+                <hudson.model.ChoiceParameterDefinition>
+                    <choices class="java.util.Arrays$ArrayList">
+                        <a class="string-array">
+                            <string>20</string>
+                            <string>22</string>
+                            <string>25</string>
+                            <string>21</string>
+                        </a>
+                    </choices>
+                    <name>AGE</name>
+                </hudson.model.ChoiceParameterDefinition>
+            </parameterDefinitions>
+        </hudson.model.ParametersDefinitionProperty>
+    </properties>
+    <scm class="hudson.scm.NullSCM"/>
+    <canRoam>true</canRoam>
+    <disabled>false</disabled>
+    <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+    <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+    <triggers/>
+    <concurrentBuild>false</concurrentBuild>
+    <builders>
+        <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@524.v9fa_a_4c989224">
+            <playbook>/var/jenkins_home/ansible/play2.yaml</playbook>
+            <inventory class="org.jenkinsci.plugins.ansible.InventoryPath">
+                <path>/var/jenkins_home/ansible/hosts</path>
+            </inventory>
+            <become>false</become>
+            <becomeUser>root</becomeUser>
+            <checkMode>false</checkMode>
+            <sudo>false</sudo>
+            <sudoUser>root</sudoUser>
+            <forks>5</forks>
+            <unbufferedOutput>true</unbufferedOutput>
+            <colorizedOutput>true</colorizedOutput>
+            <disableHostKeyChecking>false</disableHostKeyChecking>
+            <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+            <extraVars>
+                <org.jenkinsci.plugins.ansible.ExtraVar>
+                    <key>PEOPLE_AGE</key>
+                    <secretValue>{AQAAABAAAAAQYFBnm9qjuH4IKCtR3YB/fkg6skUmTEku4PiY9oDme+0=}</secretValue>
+                    <hidden>false</hidden>
+                </org.jenkinsci.plugins.ansible.ExtraVar>
+            </extraVars>
+        </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+    </builders>
+    <publishers/>
+    <buildWrappers>
+        <hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+            <colorMapName>xterm</colorMapName>
+        </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
+    </buildWrappers>
+</project>

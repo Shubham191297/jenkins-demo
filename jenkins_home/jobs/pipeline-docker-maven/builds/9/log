@@ -1,0 +1,462 @@
+Started by user [8mha:////4NUcgF0Zb8q2y186U+etil8O/M78WVokYuqokwmq4GqzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Obtained Jenkinsfile from git http://git-server:80/jenkins/pipeline-maven.git
+[8mha:////4C8LwOi4mDWNylKh0dY4fuagTEijVp7ZT1/tKI1ppxZpAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Meex/EYYUt240r6pQdrPHRE9sDLS90Yrf3UrniumgA4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Ct7oktG5c4qVE6wz/WKEkuTv00Ae+fRvCsmVYG7uWNnAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/pipeline-docker-maven
+[8mha:////4JftLaojD95p3SyDkb9ujhwSpXocJHTbZYSEuerGFmNpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LThffnXX6e1sk/RxsB9sqaT7roNgDRiKq7L5Vxd6yd3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NgHPJf8UjQE3mEX7S9IUzAkVjIzd3T/YScEAqUiH8P7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4EdkTibUs2741VbWbQQYuBzjNvgEI8LUpz1Au9abXYG7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential git_user
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/pipeline-docker-maven/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git-server:80/jenkins/pipeline-maven.git # timeout=10
+Fetching upstream changes from http://git-server:80/jenkins/pipeline-maven.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://git-server:80/jenkins/pipeline-maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 50c3f667f21dd9fe39697537deb060ab7945c69c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 50c3f667f21dd9fe39697537deb060ab7945c69c # timeout=10
+Commit message: "Adds post action to Jenkinsfile"
+ > git rev-list --no-walk 7c70bfa2ae07b42c4af5ec98c48bbea712df68f7 # timeout=10
+[8mha:////4MxoVw4kl2E6G5MeEidy6bzK6ciOMYzZNw4RD0c2cMF8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4JkAQ1jd3m2psHFnvBnlYyCAWWi6/tDsvfsuyUmIw/r7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4MEUOXEFSrkEubMFOg0Vgc2BcDlBl58AUTFkjpGAIyXeAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Olj7Bk3wldxiqc5CdWNPV0i1eW/J4nvEd++t41mQ7FbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4LF9cDBKb53AdNzNZlmnYT5TgHgdPQiy50QvP6oG5/JcAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PASS
+[8mha:////4Esifxd8iJhBS7xfag9AwfzrJescR0qlcux1axpjcMJVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4FdwowM9z/4akcwjwbX7e3A1xn7+CX8X4o6AEoQRF6CoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4NmlsitS92/TlMEdmR6IcsP3wlDUG4rJUHV909WudvDBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build)
+[8mha:////4BqkurcEFe1qiUKRs/Gje1/pAIW10KG3h3Q9NK7DiI+YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ ./jenkins/build/mvn.sh mvn -B -DskipTests clean package
+************************************
+******* Building jar ***************
+************************************
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ my-app ---
+[INFO] Deleting /app/target
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ my-app ---
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ my-app ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ my-app ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ my-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ my-app ---
+[INFO] Building jar: /app/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.275 s
+[INFO] Finished at: 2025-05-20T02:24:12Z
+[INFO] ------------------------------------------------------------------------
++ ./jenkins/build/build.sh
+***************************************
+****** Building Docker Image **********
+***************************************
+Compose can now delegate builds to bake for better performance.
+ To do so, set COMPOSE_BAKE=true.
+#0 building with "default" instance using docker driver
+
+#1 [app internal] load build definition from Dockerfile-java
+#1 transferring dockerfile:
+#1 transferring dockerfile: 138B 0.1s done
+#1 DONE 0.2s
+
+#2 [app internal] load metadata for docker.io/library/amazoncorretto:21.0.7
+#2 DONE 2.5s
+
+#3 [app internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.1s
+
+#4 [app internal] load build context
+#4 transferring context: 2.78kB 0.0s done
+#4 DONE 0.1s
+
+#5 [app 1/3] FROM docker.io/library/amazoncorretto:21.0.7@sha256:d51610ff3c790833e308318d25424361a69680a4b7968329b73012ad502ab936
+#5 resolve docker.io/library/amazoncorretto:21.0.7@sha256:d51610ff3c790833e308318d25424361a69680a4b7968329b73012ad502ab936
+#5 resolve docker.io/library/amazoncorretto:21.0.7@sha256:d51610ff3c790833e308318d25424361a69680a4b7968329b73012ad502ab936 1.6s done
+#5 DONE 1.6s
+
+#5 [app 1/3] FROM docker.io/library/amazoncorretto:21.0.7@sha256:d51610ff3c790833e308318d25424361a69680a4b7968329b73012ad502ab936
+#5 CACHED
+
+#6 [app 2/3] RUN mkdir /app
+#6 DONE 2.5s
+
+#7 [app 3/3] COPY *.jar /app/app.jar
+#7 DONE 0.3s
+
+#8 [app] exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 exporting manifest sha256:4b708dd7a22fda28826aee2788d4c86cd434f214759397be560e618b6a2a8924 0.0s done
+#8 exporting config sha256:242b2f6b184e974097a633575eaafc89a73a01a913c31b37247a0d59c4e885ea 0.0s done
+#8 exporting attestation manifest sha256:d2cd093312259432f018c5de3ab9f62400f3bb264382e9afaf88fbaa10833499
+#8 exporting attestation manifest sha256:d2cd093312259432f018c5de3ab9f62400f3bb264382e9afaf88fbaa10833499 0.1s done
+#8 exporting manifest list sha256:9830c16134e9ac996f1d45470f1f75d95fc85e8062eb4eb32c92bbf16a2c5428 0.0s done
+#8 naming to docker.io/library/maven-project:jenkins-pipeline-docker-maven-9
+#8 naming to docker.io/library/maven-project:jenkins-pipeline-docker-maven-9 0.0s done
+#8 unpacking to docker.io/library/maven-project:jenkins-pipeline-docker-maven-9
+#8 unpacking to docker.io/library/maven-project:jenkins-pipeline-docker-maven-9 0.2s done
+#8 DONE 1.0s
+
+#9 [app] resolving provenance for metadata file
+#9 DONE 0.2s
+ app  Built
+Post stage
+[8mha:////4IK1ZweMkc8Fwz3DJde6vV/2ksND15ZS2VgVFYs/UDtXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4Lk5ZODbjAo8LoVNYQD1wllWMg+wk3ebQZKxnB5Jt2NBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4C6USW1y7LPKBRV2FZ1yxYdihuZ/9FIY6HB4/MgxZtM0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4LhuMRpzRiOK6cmT1LqnkkOCSyRsbIX5rRNJtcT1fI7WAAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] stage
+[8mha:////4JCsAAINmn/Cpy8tjd3e+HWbs6HCo6SN/nSOEYP6jQUAAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Test)
+[8mha:////4AVh/AfcuAF2Pmw1DMh+6y6VpOdcQrrs7LCmFyJo70qgAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
++ ./jenkins/test/mvn.sh mvn test
+************************************
+******* Testing the code ***********
+************************************
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.5.0:enforce (enforce-maven) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ my-app ---
+[INFO] skip non existing resourceDirectory /app/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ my-app ---
+[INFO] skip non existing resourceDirectory /app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ my-app ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ my-app ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.335 s -- in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.396 s
+[INFO] Finished at: 2025-05-20T02:25:00Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4Osg4Jxkw4ANu7fbJjyNOQ7N4ep0aue/nfNayeui9nEQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4OrODBqwwIz7r9/eBYWHerAeVQkEXJOxxW8xHQ49QRZGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] }
+[8mha:////4N9d31xSr360ZnoA975NmteBCzGDNVZLyxWBSdbnPr1YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN1R/4ly+AAAA[0m[Pipeline] // stage
+[8mha:////4NXQEoHph79AGjTfwRCgZ/mp67XMsuL+myUMdgHpSmKFAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g0l7b9pwgAAAA==[0m[Pipeline] stage
+[8mha:////4DxKAnJZ2Jyd5dIoYiaEm21F0eMC5ehEkGfFoPtca0yoAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Push)
+[8mha:////4KT7aaQcfghycclwafWYzqXaOo2oiRGCPdDMreIwh9ZsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ ./jenkins/push/push.sh
+**************************************
+*********** Pushing image ************
+**************************************
+************ Logging in *************
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+*********** Tagging image **********
+*********** Pushing image **********
+The push refers to repository [docker.io/shubh1917/maven-project]
+c395e5e96539: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Waiting
+1a4096a50338: Waiting
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+1a4096a50338: Layer already exists
+f95b2d16322c: Waiting
+c395e5e96539: Waiting
+a80a8905b6dd: Waiting
+553ed992015a: Layer already exists
+f95b2d16322c: Pushed
+c395e5e96539: Pushed
+a80a8905b6dd: Pushed
+jenkins-pipeline-docker-maven-9: digest: sha256:9830c16134e9ac996f1d45470f1f75d95fc85e8062eb4eb32c92bbf16a2c5428 size: 856
+[8mha:////4MapHot6nCWfG0Titiz07Jw5KcQTY4Fu7CKGmcPAgzYWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4GwSzWN3J14liaRNSh37jTLQjPhAOe6f33jozQud4oL6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AhSGaOxoLoJpL9VIQGXm5DUG/bfrNA87OeP6rSWUc7nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUVUfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ydbUn2f5BinWzdLCAAAA[0m[Pipeline] stage
+[8mha:////4AsM9iR5Yol/cx1boUjzyquj/6x/M1E3mEP9MyrlCYqnAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Deploy)
+[8mha:////4MvZfT/OnpgMwnGq/5HIttCA8pd4FBYnZUPiDyAZbJVMAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ ./jenkins/deploy/deploy.sh
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+ maven Pulling 
+ 553ed992015a Pulling fs layer 
+ 1a4096a50338 Pulling fs layer 
+ f95b2d16322c Pulling fs layer 
+ a80a8905b6dd Pulling fs layer 
+ a80a8905b6dd Waiting 
+ 553ed992015a Downloading [>                                                  ]  537.8kB/62.76MB
+ f95b2d16322c Downloading [==================================================>]      93B/93B
+ f95b2d16322c Verifying Checksum 
+ f95b2d16322c Download complete 
+ 1a4096a50338 Downloading [>                                                  ]  538.1kB/164.8MB
+ 553ed992015a Downloading [========>                                          ]  10.18MB/62.76MB
+ a80a8905b6dd Downloading [==================================================>]    1.9kB/1.9kB
+ a80a8905b6dd Verifying Checksum 
+ a80a8905b6dd Download complete 
+ 1a4096a50338 Downloading [=>                                                 ]  5.392MB/164.8MB
+ 553ed992015a Downloading [==============>                                    ]  18.78MB/62.76MB
+ 1a4096a50338 Downloading [===>                                               ]  12.41MB/164.8MB
+ 553ed992015a Downloading [====================>                              ]  25.27MB/62.76MB
+ 1a4096a50338 Downloading [=====>                                             ]  18.34MB/164.8MB
+ 553ed992015a Downloading [========================>                          ]  31.22MB/62.76MB
+ 1a4096a50338 Downloading [========>                                          ]  26.44MB/164.8MB
+ 553ed992015a Downloading [==============================>                    ]  37.71MB/62.76MB
+ 1a4096a50338 Downloading [=========>                                         ]  32.91MB/164.8MB
+ 553ed992015a Downloading [===================================>               ]  44.19MB/62.76MB
+ 1a4096a50338 Downloading [===========>                                       ]  39.39MB/164.8MB
+ 553ed992015a Downloading [========================================>          ]  50.68MB/62.76MB
+ 1a4096a50338 Downloading [==============>                                    ]  46.41MB/164.8MB
+ 553ed992015a Downloading [=============================================>     ]  57.17MB/62.76MB
+ 553ed992015a Verifying Checksum 
+ 553ed992015a Download complete 
+ 1a4096a50338 Downloading [===============>                                   ]  52.34MB/164.8MB
+ 553ed992015a Extracting [>                                                  ]  557.1kB/62.76MB
+ 1a4096a50338 Downloading [=================>                                 ]  58.73MB/164.8MB
+ 553ed992015a Extracting [=>                                                 ]  1.671MB/62.76MB
+ 1a4096a50338 Downloading [====================>                              ]  67.33MB/164.8MB
+ 553ed992015a Extracting [===>                                               ]  5.014MB/62.76MB
+ 1a4096a50338 Downloading [========================>                          ]  80.23MB/164.8MB
+ 553ed992015a Extracting [====>                                              ]  6.128MB/62.76MB
+ 553ed992015a Extracting [=======>                                           ]  8.913MB/62.76MB
+ 1a4096a50338 Downloading [=========================>                         ]  85.08MB/164.8MB
+ 1a4096a50338 Downloading [============================>                      ]   95.3MB/164.8MB
+ 1a4096a50338 Downloading [================================>                  ]  108.7MB/164.8MB
+ 553ed992015a Extracting [=======>                                           ]   9.47MB/62.76MB
+ 1a4096a50338 Downloading [===================================>               ]  118.5MB/164.8MB
+ 1a4096a50338 Downloading [=======================================>           ]  131.2MB/164.8MB
+ 553ed992015a Extracting [=======>                                           ]  10.03MB/62.76MB
+ 1a4096a50338 Downloading [==========================================>        ]  138.7MB/164.8MB
+ 553ed992015a Extracting [========>                                          ]  11.14MB/62.76MB
+ 1a4096a50338 Downloading [===========================================>       ]  141.9MB/164.8MB
+ 553ed992015a Extracting [==========>                                        ]  12.81MB/62.76MB
+ 1a4096a50338 Downloading [==============================================>    ]  152.1MB/164.8MB
+ 553ed992015a Extracting [===========>                                       ]  15.04MB/62.76MB
+ 1a4096a50338 Verifying Checksum 
+ 1a4096a50338 Download complete 
+ 553ed992015a Extracting [==============>                                    ]  17.83MB/62.76MB
+ 553ed992015a Extracting [================>                                  ]  21.17MB/62.76MB
+ 553ed992015a Extracting [===================>                               ]  24.51MB/62.76MB
+ 553ed992015a Extracting [======================>                            ]  27.85MB/62.76MB
+ 553ed992015a Extracting [========================>                          ]  30.64MB/62.76MB
+ 553ed992015a Extracting [=========================>                         ]  32.31MB/62.76MB
+ 553ed992015a Extracting [===========================>                       ]  35.09MB/62.76MB
+ 553ed992015a Extracting [=============================>                     ]  37.32MB/62.76MB
+ 553ed992015a Extracting [==============================>                    ]  38.44MB/62.76MB
+ 553ed992015a Extracting [================================>                  ]  40.67MB/62.76MB
+ 553ed992015a Extracting [==================================>                ]  43.45MB/62.76MB
+ 553ed992015a Extracting [====================================>              ]  46.24MB/62.76MB
+ 553ed992015a Extracting [=======================================>           ]  49.02MB/62.76MB
+ 553ed992015a Extracting [========================================>          ]  51.25MB/62.76MB
+ 553ed992015a Extracting [==========================================>        ]  53.48MB/62.76MB
+ 553ed992015a Extracting [============================================>      ]  55.71MB/62.76MB
+ 553ed992015a Extracting [=============================================>     ]  57.38MB/62.76MB
+ 553ed992015a Extracting [==============================================>    ]  58.49MB/62.76MB
+ 553ed992015a Extracting [===============================================>   ]   59.6MB/62.76MB
+ 553ed992015a Extracting [================================================>  ]  60.72MB/62.76MB
+ 553ed992015a Extracting [==================================================>]  62.76MB/62.76MB
+ 553ed992015a Pull complete 
+ 1a4096a50338 Extracting [>                                                  ]  557.1kB/164.8MB
+ 1a4096a50338 Extracting [==>                                                ]  8.356MB/164.8MB
+ 1a4096a50338 Extracting [====>                                              ]  16.15MB/164.8MB
+ 1a4096a50338 Extracting [=======>                                           ]  25.07MB/164.8MB
+ 1a4096a50338 Extracting [=========>                                         ]  32.87MB/164.8MB
+ 1a4096a50338 Extracting [============>                                      ]  41.22MB/164.8MB
+ 1a4096a50338 Extracting [==============>                                    ]  49.02MB/164.8MB
+ 1a4096a50338 Extracting [==================>                                ]   59.6MB/164.8MB
+ 1a4096a50338 Extracting [====================>                              ]  66.85MB/164.8MB
+ 1a4096a50338 Extracting [======================>                            ]  72.97MB/164.8MB
+ 1a4096a50338 Extracting [========================>                          ]  80.77MB/164.8MB
+ 1a4096a50338 Extracting [=========================>                         ]  84.12MB/164.8MB
+ 1a4096a50338 Extracting [===========================>                       ]  89.69MB/164.8MB
+ 1a4096a50338 Extracting [============================>                      ]  93.03MB/164.8MB
+ 1a4096a50338 Extracting [=============================>                     ]  96.37MB/164.8MB
+ 1a4096a50338 Extracting [==============================>                    ]  99.16MB/164.8MB
+ 1a4096a50338 Extracting [===============================>                   ]  102.5MB/164.8MB
+ 1a4096a50338 Extracting [===============================>                   ]  105.3MB/164.8MB
+ 1a4096a50338 Extracting [=================================>                 ]  109.2MB/164.8MB
+ 1a4096a50338 Extracting [==================================>                ]  112.5MB/164.8MB
+ 1a4096a50338 Extracting [==================================>                ]  115.3MB/164.8MB
+ 1a4096a50338 Extracting [===================================>               ]  118.1MB/164.8MB
+ 1a4096a50338 Extracting [====================================>              ]  121.4MB/164.8MB
+ 1a4096a50338 Extracting [=====================================>             ]  124.8MB/164.8MB
+ 1a4096a50338 Extracting [======================================>            ]  127.6MB/164.8MB
+ 1a4096a50338 Extracting [=======================================>           ]  130.9MB/164.8MB
+ 1a4096a50338 Extracting [========================================>          ]  133.7MB/164.8MB
+ 1a4096a50338 Extracting [=========================================>         ]  136.5MB/164.8MB
+ 1a4096a50338 Extracting [==========================================>        ]  139.3MB/164.8MB
+ 1a4096a50338 Extracting [==========================================>        ]  141.5MB/164.8MB
+ 1a4096a50338 Extracting [===========================================>       ]  144.3MB/164.8MB
+ 1a4096a50338 Extracting [============================================>      ]  146.5MB/164.8MB
+ 1a4096a50338 Extracting [=============================================>     ]  149.8MB/164.8MB
+ 1a4096a50338 Extracting [==============================================>    ]  153.2MB/164.8MB
+ 1a4096a50338 Extracting [===============================================>   ]  156.5MB/164.8MB
+ 1a4096a50338 Extracting [================================================>  ]  159.3MB/164.8MB
+ 1a4096a50338 Extracting [=================================================> ]  162.7MB/164.8MB
+ 1a4096a50338 Extracting [==================================================>]  164.8MB/164.8MB
+ 1a4096a50338 Pull complete 
+ f95b2d16322c Extracting [==================================================>]      93B/93B
+ f95b2d16322c Extracting [==================================================>]      93B/93B
+ f95b2d16322c Pull complete 
+ a80a8905b6dd Extracting [==================================================>]    1.9kB/1.9kB
+ a80a8905b6dd Extracting [==================================================>]    1.9kB/1.9kB
+ a80a8905b6dd Pull complete 
+ maven Pulled 
+ Container maven-app  Recreate
+ Container maven-app  Recreated
+ Container maven-app  Starting
+ Container maven-app  Started
+[8mha:////4Ch0JDXoE7lNnQf130zEINazBNU9DndwJeL5CwNA+clEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4AnJPwuIxscRq5DaXD+fBwtB35yuNo/p0QoVX1b6Im2sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // stage
+[8mha:////4Nvq1vRoefxs5zrGGA4qDOe+wxYqVlWFYVeiydGs04IXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRikSDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w83BCXOvgAAAA==[0m[Pipeline] }
+[8mha:////4CMzIGho2rFnaejcu8K5O3dUFaAPRRueSHaBqRMspeK4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw8E535yvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4L/hsUk2xSJHMmae19xEWekt+2DktEN1sOk+wrUurs1vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9rBCEavgAAAA==[0m[Pipeline] }
+[8mha:////4IHLiyr4l3GYN8BBvcUlybyMP12s0JqDUaVGDJWLrWs6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFY53qmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JSH/PCCLyVLxO8s6Qfe3pVr0P3TRVKWH/CmqDGlf1KXAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4Jt+Fkjtm3LHmBdmYf1xrWfeoZz/AC/otpPV5E6jDYF1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4FAB+Ar7feGT1BDW5RRBXeySKP5onlB4fp9MS98kO4A7AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

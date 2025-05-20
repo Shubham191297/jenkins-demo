@@ -1,0 +1,22 @@
+Started by user [8mha:////4NUcgF0Zb8q2y186U+etil8O/M78WVokYuqokwmq4GqzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/sql-backup-to-aws-s3
+[SSH] script:
+DB_NAME="testdb"
+MYSQL_HOST="db"
+AWS_SECRET_KEY=**********
+MYSQL_PASSWORD=**********
+BUCKET_NAME="jenkins-sql-backup-shubham"
+
+/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DB_NAME $AWS_SECRET_KEY $BUCKET_NAME
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+-- Warning: column statistics not supported by the server.
+Uploading your db-15-25-08.sql backup
+Completed 1.8 KiB/1.8 KiB (1.4 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-15-25-08.sql to s3://jenkins-sql-backup-shubham/db-15-25-08.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

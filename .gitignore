@@ -1,0 +1,6 @@
+# Ignore large binary/log files
+gitlab_home/logs/
+gitlab_home/data/
+db_data/
+gitlab_home/config/
+jenkins_home/caches/

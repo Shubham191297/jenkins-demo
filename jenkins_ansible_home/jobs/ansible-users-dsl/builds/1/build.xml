@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.30-471.v55fa_495f2b_f5">
+      <queuingDurationMillis>1253</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>864</buildableDurationMillis>
+      <waitingDurationMillis>52</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set">
+        <javaposse.jobdsl.dsl.GeneratedJob>
+          <jobName>ansible-users-dsl-db</jobName>
+        </javaposse.jobdsl.dsl.GeneratedJob>
+      </modifiedObjects>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedJobsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+      <lookupStrategy>JENKINS_ROOT</lookupStrategy>
+    </javaposse.jobdsl.plugin.actions.GeneratedViewsBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedConfigFilesBuildAction>
+    <javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction plugin="job-dsl@1.92">
+      <modifiedObjects class="linked-hash-set"/>
+    </javaposse.jobdsl.plugin.actions.GeneratedUserContentsBuildAction>
+  </actions>
+  <queueId>15</queueId>
+  <timestamp>1747371632824</timestamp>
+  <startTime>1747371632891</startTime>
+  <result>SUCCESS</result>
+  <duration>17384</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/ansible-users-dsl</workspace>
+  <hudsonVersion>2.508</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

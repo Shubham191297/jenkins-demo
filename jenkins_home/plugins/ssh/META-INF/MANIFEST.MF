@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Jenkins SSH plugin
+Specification-Version: 0.0
+Implementation-Title: Jenkins SSH plugin
+Implementation-Version: 158.ve2a_e90fb_7319
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: ssh
+Short-Name: ssh
+Long-Name: Jenkins SSH plugin
+Url: https://github.com/jenkinsci/ssh-plugin
+Compatible-Since-Version: 2.5
+Plugin-Version: 158.ve2a_e90fb_7319
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: jsch:0.2.16-86.v42e010d9484b_,ssh-credentials:337.v
+ 395d2403ccd4
+Plugin-Developers: Edmund Wagner:edmund_wagner:,Lukasz Jader:ljader:
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/ssh-plugin.gi
+ t
+Plugin-ScmTag: e2ae90fb7319b97f7a59eb6e2f7ae338b23264dc
+Plugin-ScmUrl: https://github.com/jenkinsci/ssh-plugin
+Plugin-GitHash: e2ae90fb7319b97f7a59eb6e2f7ae338b23264dc
+Implementation-Build: e2ae90fb7319b97f7a59eb6e2f7ae338b23264dc
+

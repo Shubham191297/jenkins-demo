@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+    <actions/>
+    <description>This is my awesome Job</description>
+    <keepDependencies>false</keepDependencies>
+    <properties>
+        <hudson.model.ParametersDefinitionProperty>
+            <parameterDefinitions>
+                <hudson.model.StringParameterDefinition>
+                    <name>Planet</name>
+                    <defaultValue>world</defaultValue>
+                    <description>This is the world</description>
+                </hudson.model.StringParameterDefinition>
+                <hudson.model.BooleanParameterDefinition>
+                    <name>FLAG</name>
+                    <defaultValue>true</defaultValue>
+                </hudson.model.BooleanParameterDefinition>
+                <hudson.model.ChoiceParameterDefinition>
+                    <choices class="java.util.Arrays$ArrayList">
+                        <a class="string-array">
+                            <string>option 1 (default)</string>
+                            <string>option 2</string>
+                            <string>option 3</string>
+                        </a>
+                    </choices>
+                    <name>OPTION</name>
+                </hudson.model.ChoiceParameterDefinition>
+            </parameterDefinitions>
+        </hudson.model.ParametersDefinitionProperty>
+    </properties>
+    <canRoam>true</canRoam>
+    <disabled>false</disabled>
+    <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+    <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+    <triggers>
+        <hudson.triggers.TimerTrigger>
+            <spec>0 0 * * 0</spec>
+        </hudson.triggers.TimerTrigger>
+    </triggers>
+    <concurrentBuild>false</concurrentBuild>
+    <builders>
+        <hudson.tasks.Shell>
+            <command>echo 'Hello World'</command>
+        </hudson.tasks.Shell>
+    </builders>
+    <publishers>
+        <hudson.tasks.Mailer>
+            <recipients>me@example.com</recipients>
+            <dontNotifyEveryUnstableBuild>true</dontNotifyEveryUnstableBuild>
+            <sendToIndividuals>true</sendToIndividuals>
+        </hudson.tasks.Mailer>
+    </publishers>
+    <buildWrappers/>
+    <scm class="hudson.plugins.git.GitSCM">
+        <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+                <url>https://github.com/jenkins-docs/simple-java-maven-app</url>
+            </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+            <hudson.plugins.git.BranchSpec>
+                <name>master</name>
+            </hudson.plugins.git.BranchSpec>
+        </branches>
+        <configVersion>2</configVersion>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <gitTool>Default</gitTool>
+        <extensions>
+            <hudson.plugins.git.extensions.impl.PerBuildTag/>
+        </extensions>
+    </scm>
+</project>

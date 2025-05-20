@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-05-14 16:18:04.917 UTC</timestamp>
+  <md5sum>10e8408a63cf26999fde65d6e0240611</md5sum>
+  <fileName>Credential id=git_user name=shubham/******</fileName>
+  <usages>
+    <entry>
+      <string>job-dsl</string>
+      <ranges>11</ranges>
+    </entry>
+    <entry>
+      <string>pipeline-docker-maven</string>
+      <ranges>1-10</ranges>
+    </entry>
+    <entry>
+      <string>maven-job</string>
+      <ranges>12-20</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1415.v831096eb_5534">
+      <timestamp>1747712763809</timestamp>
+      <itemFullName>pipeline-docker-maven</itemFullName>
+      <timestamp0>1747707772257</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

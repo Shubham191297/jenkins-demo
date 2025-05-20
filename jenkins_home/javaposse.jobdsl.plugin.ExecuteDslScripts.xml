@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.92">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <unserializable-parents/>
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>maven_dsl</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>861585c5553fcfc18538ba39f3279f50</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>job dsl created</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>51e4a3dce15ac50b765f2c299da39249</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>git-job-test-hooks</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>cddcbae5500cbfebfeb9814c4fcf0446</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>
